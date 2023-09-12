@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Temp Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="headiing">
+      <h1>
+        Temperature Converter
+      </h1> 
+    </div>
+    <div class="image-section">
+      <img src="image1.jpg" alt="">
+    </div>
+    <div class="calculation-section">
+      <p>From</p>
+        <select name="" id="fromValue" required>
+          <option value="celcius">Celcius</option>
+          <option value="farenheit">Farenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+
+        <p>To</p>
+        <select name="" id="toValue" required>
+          <option value="celcius">Celcius</option>
+          <option value="farenheit">Farenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+    </div>
+    <div class="input-section">
+      <input type="number" id="inputter" placeholder="Enter the number.">
+      <button id="convertButton"> Convert </button>
+    </div>
+    <div class="output-section" id="opSection">
+    </div>
+  </div>
+</body>
+</html>

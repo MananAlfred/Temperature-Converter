@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Oswald", sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  background-image: url(https://img.freepik.com/free-photo/back-school-decoration-with-pencils-calculator-space_23-2147662344.jpg?w=996&t=st=1694366457~exp=1694367057~hmac=b66896ad0884acbb5b8f178079ae57ce705f05137fb281878e8cd3be7885bb38);
+  color: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+.container{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 7rem;
+}
+
+.image-section img{
+  width: 30rem;
+  margin-top: 1rem;
+}
+
+.calculation-section{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.calculation-section select{
+  font-size: 2rem;
+  width: 25rem;
+  padding: 5px 1px 5px 2px;
+}
+
+.calculation-section p{
+  font-size: 2rem;
+  width: 25rem;
+}
+
+.input-section{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input-section input{
+  width: 25rem;
+  margin-top: 2rem;
+  height: 3rem;
+  font-size: 2rem;
+  padding-left: 5px;
+}
+
+.output-section{
+  font-size: 3rem;
+  margin-top: 2rem; 
+  margin-bottom: 3rem; 
+}
+
+
+/* Style for the button */
+
+.input-section button {
+  align-self: center;
+  width: 10rem;
+  margin-top: 1rem;
+  height: 3.5rem;
+  font-size: 2rem;
+  background-color: #eb8405f6; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.input-section button:hover {
+  opacity: 0.8;
+}
+
+.input-section button:active {
+  opacity: 0.65;
+}
+
+@media (max-width: 900px){
+  h1{
+    display: inline-block;
+    text-align: center;
+  }
+}
+
